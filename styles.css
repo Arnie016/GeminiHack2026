@@ -229,6 +229,23 @@ a {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
+.submission-copy {
+  margin-top: 24px;
+  background: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.05);
+}
+
+.submission-copy h3 {
+  margin-bottom: 8px;
+}
+
+.submission-copy p {
+  color: var(--muted);
+}
+
 .grid-item {
   background: var(--card);
   border: 1px solid var(--border);
