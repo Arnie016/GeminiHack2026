@@ -257,6 +257,42 @@ a {
   margin-bottom: 8px;
 }
 
+.workflow {
+  display: grid;
+  gap: 16px;
+}
+
+.workflow-step {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  gap: 16px;
+  align-items: start;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 18px 20px;
+}
+
+.step-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  background: #e0f2fe;
+  color: #0369a1;
+  font-weight: 700;
+}
+
+.workflow-step h4 {
+  margin-bottom: 6px;
+}
+
+.workflow-step p {
+  color: var(--muted);
+}
+
 .timeline {
   display: grid;
   gap: 16px;
@@ -304,6 +340,10 @@ a {
   }
 
   .timeline-item {
+    grid-template-columns: 1fr;
+  }
+
+  .workflow-step {
     grid-template-columns: 1fr;
   }
 }
