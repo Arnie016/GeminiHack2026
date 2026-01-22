@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SentinelQA | Gemini 3 Hackathon Overview</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav">
+        <div class="logo">SentinelQA</div>
+        <div class="nav-links">
+          <a href="#overview">Overview</a>
+          <a href="#requirements">Requirements</a>
+          <a href="#prizes">Prizes</a>
+          <a href="#timeline">Timeline</a>
+        </div>
+        <button class="btn ghost">Join the Discord</button>
+      </nav>
+
+      <div class="hero-content">
+        <div class="hero-text">
+          <p class="badge">Gemini 3 Hackathon</p>
+          <h1>SentinelQA IDE for Gemini 3.</h1>
+          <p>
+            SentinelQA is an integrated development environment where verification loops,
+            backtesting, and autonomous QA run continuously in the background. Gemini 3
+            powers the agent that plans, executes, and summarizes every change so you can
+            ship with confidence.
+          </p>
+          <div class="hero-actions">
+            <button class="btn primary">Create project</button>
+            <button class="btn secondary">View full rules</button>
+          </div>
+          <div class="hero-stats">
+            <div>
+              <span class="stat-label">Deadline</span>
+              <span class="stat-value">10 Feb 2026 · 9:00am GMT+8</span>
+            </div>
+            <div>
+              <span class="stat-label">Prize Pool</span>
+              <span class="stat-value">$100,000 cash</span>
+            </div>
+            <div>
+              <span class="stat-label">Participants</span>
+              <span class="stat-value">19,701 builders</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-card">
+          <h3>You’re missing out!</h3>
+          <p>
+            Sign up for our weekly newsletter to learn about hackathons, community
+            updates, and awesome projects.
+          </p>
+          <form class="newsletter" aria-label="Weekly newsletter signup">
+            <label for="email">Email address</label>
+            <input id="email" type="email" name="email" placeholder="you@example.com" required />
+            <button class="btn primary" type="submit">Sign me up</button>
+            <p class="form-footnote">We’ll never spam you. Unsubscribe any time.</p>
+          </form>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="overview" class="section">
+        <div class="section-header">
+          <h2>Overview</h2>
+          <p>
+            SentinelQA blends an IDE experience with a 24/7 QA agent. It understands
+            verification loops, summarizes context automatically, and surfaces a
+            completion checklist once feature backtests finish.
+          </p>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <h3>Verification loops</h3>
+            <ul>
+              <li>Define features and success criteria in one place.</li>
+              <li>Run automatic backtests for every change.</li>
+              <li>Get a live checklist of what passed or failed.</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Context summaries</h3>
+            <ul>
+              <li>Gemini 3 condenses long test runs into highlights.</li>
+              <li>Group failures by root cause and severity.</li>
+              <li>Pin important decisions in the IDE timeline.</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Autonomous evidence</h3>
+            <ul>
+              <li>Background runs capture screenshots and logs.</li>
+              <li>Auto-generated demo videos of feature changes.</li>
+              <li>Checklists update the moment runs finish.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="workflow" class="section alt">
+        <div class="section-header">
+          <h2>How the IDE works</h2>
+          <p>From feature definition to proof, all in one workflow.</p>
+        </div>
+        <div class="workflow">
+          <div class="workflow-step">
+            <span class="step-number">01</span>
+            <div>
+              <h4>Plan & backtest</h4>
+              <p>Describe the feature, set acceptance criteria, and let Gemini 3 draft the verification loop.</p>
+            </div>
+          </div>
+          <div class="workflow-step">
+            <span class="step-number">02</span>
+            <div>
+              <h4>Autonomous execution</h4>
+              <p>The agent runs browser flows, regression suites, and chaos checks on its own.</p>
+            </div>
+          </div>
+          <div class="workflow-step">
+            <span class="step-number">03</span>
+            <div>
+              <h4>Checklist + video</h4>
+              <p>Receive a completion checklist and a video montage of verified feature changes.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="requirements" class="section alt">
+        <div class="section-header">
+          <h2>Hackathon submission checklist</h2>
+          <p>Everything you need to ship a complete Gemini 3 submission.</p>
+        </div>
+        <div class="grid">
+          <div class="grid-item">
+            <h4>Gemini integration write-up</h4>
+            <p>Explain how Gemini 3 powers SentinelQA and why it matters.</p>
+          </div>
+          <div class="grid-item">
+            <h4>Public project link</h4>
+            <p>Share a live demo or AI Studio app judges can access.</p>
+          </div>
+          <div class="grid-item">
+            <h4>Public code repository</h4>
+            <p>Required unless you have an AI Studio link.</p>
+          </div>
+          <div class="grid-item">
+            <h4>3-minute demo video</h4>
+            <p>Keep it short—judges may not watch beyond 3 minutes.</p>
+          </div>
+        </div>
+        <div class="submission-copy">
+          <h3>Gemini integration (draft)</h3>
+          <p>
+            SentinelQA uses Gemini 3 for goal-to-test planning, self-healing selectors,
+            and failure triage. The agent turns user stories and UI intent into executable
+            browser flows, adapts when selectors drift, and summarizes failures with
+            reproducible steps and artifacts. Gemini 3’s reasoning capability powers the
+            planner loop and the chaos-test evaluator so teams can ship faster with fewer
+            regressions.
+          </p>
+        </div>
+      </section>
+
+      <section id="prizes" class="section">
+        <div class="section-header">
+          <h2>Prizes</h2>
+          <p>$100,000 in total prizes for the best Gemini 3 projects.</p>
+        </div>
+        <div class="cards">
+          <article class="card highlight">
+            <h3>Grand Prize</h3>
+            <p class="price">$50,000</p>
+            <p>1 winner + AI Futures Fund interview.</p>
+          </article>
+          <article class="card">
+            <h3>Second Place</h3>
+            <p class="price">$20,000</p>
+            <p>1 winner + AI Futures Fund interview.</p>
+          </article>
+          <article class="card">
+            <h3>Third Place</h3>
+            <p class="price">$10,000</p>
+            <p>1 winner + AI Futures Fund interview.</p>
+          </article>
+          <article class="card">
+            <h3>Honorable Mentions</h3>
+            <p class="price">$2,000</p>
+            <p>10 winners with social promotion.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="timeline" class="section alt">
+        <div class="section-header">
+          <h2>Timeline highlights</h2>
+          <p>Keep an eye on the deadline and key milestones.</p>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="timeline-date">Now</span>
+            <div>
+              <h4>Join the Discord</h4>
+              <p>Connect with builders, share updates, and find teammates.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-date">21 days left</span>
+            <div>
+              <h4>Build & iterate</h4>
+              <p>Ship your MVP and let SentinelQA keep regression bugs out.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-date">Feb 10, 2026</span>
+            <div>
+              <h4>Submission deadline</h4>
+              <p>Submit your project, demo video, and repository link.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Made for Gemini 3 builders · SentinelQA keeps your app resilient.</p>
+      <div class="footer-links">
+        <a href="#overview">Overview</a>
+        <a href="#requirements">Requirements</a>
+        <a href="#prizes">Prizes</a>
+        <a href="#timeline">Timeline</a>
+      </div>
+    </footer>
+  </body>
+</html>
