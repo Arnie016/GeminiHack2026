@@ -1,0 +1,38 @@
+{
+  "runId": "demo-1770105698132",
+  "name": "Landing Page Smoke",
+  "environment": "preview",
+  "startedAt": "2026-02-03T08:01:39.390Z",
+  "status": "PASS",
+  "baseUrl": "http://localhost:5173",
+  "steps": [
+    {
+      "index": 0,
+      "name": "Open landing page",
+      "type": "goto",
+      "startedAt": "2026-02-03T08:01:40.670Z",
+      "finishedAt": "2026-02-03T08:01:41.174Z",
+      "status": "PASS",
+      "screenshotPath": "001-goto.png"
+    },
+    {
+      "index": 1,
+      "name": "Has AegisQA text",
+      "type": "assert",
+      "startedAt": "2026-02-03T08:01:41.174Z",
+      "finishedAt": "2026-02-03T08:01:41.527Z",
+      "status": "PASS",
+      "screenshotPath": "002-assert.png"
+    }
+  ],
+  "console": {
+    "errors": []
+  },
+  "network": {
+    "failures": []
+  },
+  "artifactsDir": "/Users/aravcabral/GeminiHack2026/backend/runs/demo-1770105698132",
+  "finalUrl": "http://localhost:5173/",
+  "finishedAt": "2026-02-03T08:01:41.527Z",
+  "videoPath": "run.webm"
+}

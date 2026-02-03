@@ -1,0 +1,37 @@
+{
+  "runId": "cli-smoke",
+  "name": "Landing Page Smoke",
+  "environment": "preview",
+  "startedAt": "2026-02-03T07:55:46.334Z",
+  "status": "PASS",
+  "baseUrl": "http://localhost:5173",
+  "steps": [
+    {
+      "index": 0,
+      "name": "Open landing page",
+      "type": "goto",
+      "startedAt": "2026-02-03T07:55:47.119Z",
+      "finishedAt": "2026-02-03T07:55:47.589Z",
+      "status": "PASS",
+      "screenshotPath": "001-goto.png"
+    },
+    {
+      "index": 1,
+      "name": "Has AegisQA text",
+      "type": "assert",
+      "startedAt": "2026-02-03T07:55:47.590Z",
+      "finishedAt": "2026-02-03T07:55:47.889Z",
+      "status": "PASS",
+      "screenshotPath": "002-assert.png"
+    }
+  ],
+  "console": {
+    "errors": []
+  },
+  "network": {
+    "failures": []
+  },
+  "artifactsDir": "/Users/aravcabral/GeminiHack2026/backend/runs/cli-smoke",
+  "finalUrl": "http://localhost:5173/",
+  "finishedAt": "2026-02-03T07:55:47.890Z"
+}

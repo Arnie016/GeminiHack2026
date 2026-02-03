@@ -1,0 +1,16 @@
+{
+  "runId": "1770105143657-1e92bbab",
+  "name": "Landing Page Smoke",
+  "environment": "preview",
+  "startedAt": "2026-02-03T07:52:23.668Z",
+  "status": "RUNNING",
+  "baseUrl": "http://localhost:5173",
+  "steps": [],
+  "console": {
+    "errors": []
+  },
+  "network": {
+    "failures": []
+  },
+  "artifactsDir": "/Users/aravcabral/GeminiHack2026/backend/runs/1770105143657-1e92bbab"
+}
